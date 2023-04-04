@@ -7,8 +7,7 @@ import web.model.User;
 import javax.persistence.*;
 import java.util.List;
 
-@Component
-@Transactional
+@Repository
 public class UserDAOImpl implements UserDAO {
     public UserDAOImpl() {
     }
